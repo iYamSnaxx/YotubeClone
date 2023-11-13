@@ -1,5 +1,7 @@
 # YotubeClone
 YoutubeClone HTML/CSS
+HTML: 
+
 
 <!DOCTYPE html>
 <html>
@@ -180,3 +182,144 @@ YoutubeClone HTML/CSS
   </body>
 
 </html>
+
+
+
+
+
+CSS : 
+
+General CSS - 
+
+p{
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body{
+  margin: 0;
+}
+
+Header CSS - 
+.header{
+  height: 55px;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  height: 25px;
+  margin-left: 24px;
+  margin-right: 20px;
+}
+
+.youtube-logo{
+  height: 20px;
+}
+
+.middle-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 30px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar{
+  flex: 1;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192,192,192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+
+.search-bar::placeholder{
+  font-family: roboto, Arial;
+  font-size: 16px;
+}
+
+.search-button{
+  height: 40px;
+  width: 66px;
+  background-color: rgb(240,240,240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192,192,192);
+  margin-left: -1px;
+  margin-right: 8px;
+}
+
+.voice-search-icon-button{
+  height: 40px;
+  width: 60px;
+}
+
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+}
+.voice-icon{}
+.right-section{
+  background-color: lightblue;
+  width: 200px;
+  
+}
+
+.thumbnail{
+  width: 100%;
+}
+
+
+.video-title{
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture{
+  width: 40px;
+  border-radius: 50px;
+}
+
+.thumbnail-row{
+  margin-bottom: 12px;
+}
+
+.creator, .views{
+  font-size: 12px;
+  color:rgb(96,96, 96);
+}
+
+.creator{
+  margin-bottom: 4px;
+}
+
+
+
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
